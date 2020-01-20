@@ -528,6 +528,7 @@ module.exports = function (homebridge) {
           this.addCharacteristic(CommunityTypes.UPSLoadPercent)
           this.addCharacteristic(CommunityTypes.Volts)
           this.addCharacteristic(CommunityTypes.VoltAmperes)
+          this.addOptionalCharacteristic(CommunityTypes.EveResetTotal)
           this.addOptionalCharacteristic(CommunityTypes.Watts)
           this.addOptionalCharacteristic(CommunityTypes.KilowattHours)
           this.addOptionalCharacteristic(CommunityTypes.OutputVoltageAC)
